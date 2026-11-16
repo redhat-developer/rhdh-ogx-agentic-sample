@@ -7,7 +7,7 @@ requires-python = ">=3.12"
 dependencies = [
     "docling>=2.63.0",
     # Python SDK used to call the OGX (Open GenAI Stack) server APIs.
-    "ogx-client==1.2.5",
+    "ogx-client==1.5.0",
     # OpenAI SDK used for the Responses/Chat/Moderations compatibility endpoints.
     "openai>=2.14.0,<3",
     "pygithub>=2.8.1",
