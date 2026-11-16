@@ -1632,7 +1632,7 @@ wheels = [
 
 [[package]]
 name = "ogx-client"
-version = "1.2.5"
+version = "1.5.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "fire" },
@@ -1642,9 +1642,9 @@ dependencies = [
     { name = "requests" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/6f/cc/e8a503ee6f4ad5a4c02a0799c8106143f2f0a93da23a3005720e5ac465e3/ogx_client-1.2.5.tar.gz", hash = "sha256:38d3ba75ee70efd1f9fb59f7c4873e49eeac7fc7eaeeccbecb8dac2f471d5043", size = 642238, upload-time = "2026-09-01T12:45:45.316Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/c6/0e/985a2b90fea50f662da1e07d0c241062dde363d560aba527711001fd3eb6/ogx_client-1.5.0.tar.gz", hash = "sha256:4d932ae3d7105e48f9f99d320f3ca14d58a79ac196cad06f660708ce20e8a04d", size = 649571, upload-time = "2026-10-09T01:40:07.168Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/27/52/8608e4aa9addbe3453a80dc64e5ed1168aee414a0d4babdfcb04bd98987e/ogx_client-1.2.5-py3-none-any.whl", hash = "sha256:70d83f1346c5cff62b182b79becdba9229b44f13a23a915e7c46d6eb70c75d02", size = 1584405, upload-time = "2026-09-01T12:45:43.491Z" },
+    { url = "https://files.pythonhosted.org/packages/9b/6c/5c7a3e1cf70eb185fda6f097fb42bf1c6f82ff71051a2dfe8b02e8bdb576/ogx_client-1.5.0-py3-none-any.whl", hash = "sha256:b9d90a85851807f47e757501991d4b004432affe761cc831357015fa6dda8624", size = 1595662, upload-time = "2026-10-09T01:40:05.516Z" },
 ]
 
 [[package]]
@@ -2704,7 +2704,7 @@ requires-dist = [
     { name = "grandalf", specifier = ">=0.8" },
     { name = "langgraph", specifier = ">=1.0.4" },
     { name = "mcp", specifier = ">=1.23.1" },
-    { name = "ogx-client", specifier = "==1.2.5" },
+    { name = "ogx-client", specifier = "==1.5.0" },
     { name = "ollama", specifier = ">=0.6.1" },
     { name = "openai", specifier = ">=2.14.0,<3" },
     { name = "pygithub", specifier = ">=2.8.1" },
