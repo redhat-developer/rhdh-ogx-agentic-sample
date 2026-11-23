@@ -4,7 +4,7 @@
 # =============================================================================
 # BUILDER STAGE
 # =============================================================================
-FROM registry.access.redhat.com/ubi9/python-312:9.9-1793872299@sha256:5b184c2acfe9e2eb9df1a243da8e4a82fedd96e5e7f6648ec5512656177fa326 AS builder
+FROM registry.access.redhat.com/ubi9/python-312:9.9-1795320568@sha256:2efa5e6b314025805f2add5ec53922f98872dfa545d5ec330d3e86dd52df63c2 AS builder
 
 USER root
 
@@ -32,7 +32,7 @@ RUN .venv/bin/python -c "from rapidocr import RapidOCR, EngineType; RapidOCR(par
 # =============================================================================
 # RUNTIME STAGE
 # =============================================================================
-FROM registry.access.redhat.com/ubi9/python-312-minimal:9.9-1794502907@sha256:612eb994cd4255fbafd0de6967efba8d72b62c812058e68e28974458529d0523
+FROM registry.access.redhat.com/ubi9/python-312-minimal:9.9-1795231781@sha256:3c3413652c3cf6aab00587926949ca8884f06b7d28dbbe69508e29aade34e2fe
 
 ARG APP_ROOT=/app-root
 WORKDIR /app-root
